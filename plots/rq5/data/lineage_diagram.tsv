@@ -1,0 +1,39 @@
+bug_id	seed_runtime	avg_seed_age_months	mode	buggy_runtime
+reported_wasmer_llvm_segfault_func-exec	wasmer	36	wapplique	wasmer
+reported_wasmer_all_integerdividebyzero	wasmer	36	wapplique	wasmer
+reported_wasmer_all_stackoverflow	wasmer	36	wapplique	wasmer
+reported_wasmer_all_unreachable	wasmer	36	wapplique	wasmer
+reported_wasmer_cranelift_timeout	wasmer	36	wapplique	wasmer
+reported_wasmedge_all_no-unreachable	wasmer	36	wapplique	wasmedge
+reported_wasmedge_all_unreachable	wasmer	36	wapplique	wasmedge
+reported_wasmedge_compiled_segfault	wasmtime	36	wapplique	wasmedge
+reported_wasmer_llvm_segfault_incorrect-oob-reporting	wasmtime/wasmer/wamr/wasmedge	24	wasmaker	wasmer
+reported_wasmer_llvm_segfault_trampoline-corosensei	wasmtime/wamr	24	wasmaker	wasmer
+reported_wamr_aot_num_diff_2 (NEW - wasmaker combobench)	wasmtime/wamr/wasmedge	24	wasmaker	wamr
+reported_wasmer_llvm_oob	wasmtime/wamr/wasmedge	24	wasmaker	wasmer
+reported_wasmer_llvm_diff_nan_compilation_error	wasmer/wamr/wasmedge	36	wasmaker	wasmer
+reported_wasmer_llvm_num_diff_2	wasmtime/wasmer/wamr/wasmedge	36	wasmaker	wasmer
+reported_wasmedge_interp_num_diff	wasmtime/wamr	24	wasmaker	wasmedge
+reported_wasmedge_compiled_num_diff	wasmtime/wamr/wasmedge	24	wasmaker	wasmedge
+reported_wasmedge_all_oob			wasmaker	wasmedge
+reported_wasmedge_all_timeout	wasmtime	24	wasmaker	wasmedge
+reported_wasmedge_compilationtimeout	wasmtime	36	wasmaker	wasmedge
+reported_wamr_aot_opt_oob			wasmaker	wamr
+reported_wasmer_llvm_segfault_llvm-codegen			wasmaker	wasmer
+reported_wasmer_llvm_llvmerror-funcrettypemismatch	wasmtime	36	wasmaker	wasmer
+reported_wamr_jit_llvmerror-cannotselect	wasmer	12	wasmaker	wamr
+reported_wasmer_llvm_timeout			both_fuzzers	wasmer
+reported_wamr_all_invalid_block_end_addr_failed	wasmedge	24	both_fuzzers	wamr
+reported_wasmer_all_no-capabilities-insufficient	wasmtime	36	transplantation	wasmer
+reported_wasmer_all_panic_intrinsics	wasmtime	72	transplantation	wasmer
+reported_wamr_invalid_unexpected_end	wasmtime	12	transplantation	wamr
+reported_wasmedge_interp_lockedat_integer_too_large	wamr	36	transplantation	wasmedge
+reported_wasmedge_all_failed_preopened_filedescriptor	wasmtime	24	transplantation	wasmedge
+reported_wasmer_llvm_panic_enumrs	wamr	24	transplantation	wasmer
+reported_wasmer_all_no-output	wamr	48	transplantation	wasmer
+reported_wasmer_llvm_llvmerror-phioprndtypemismatch	wamr	24	transplantation	wasmer
+reported_wamr_jit_type_mismatch	wasmedge	24	transplantation	wamr
+reported_wamr_jit_no-oob	wasmedge	24	transplantation	wamr
+reported_wamr_all_oob	wasmedge	24	transplantation	wamr
+reported_wasmedge_no_funcref	wamr	24	transplantation	wasmedge
+reported_wasmedge_compiled_assertion_aborted	wamr	24	transplantation	wasmedge
